@@ -18,7 +18,7 @@
         :key="i"
         :src="item.src"
     >
-      <div class="d-flex justify-center align-center mx-auto" style="height: 100%; width: 650px">
+      <div class="d-flex justify-center align-center mx-auto" style="height: 100%;"  :style="[!$vuetify.breakpoint.mobile? {width:'650px'}:{width: '100%'}]">
         <div class="mx-auto my-auto text-center text-content">
           <h3>Conducive Workspace for your team.</h3>
           <br>
