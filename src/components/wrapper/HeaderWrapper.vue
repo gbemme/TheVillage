@@ -24,7 +24,7 @@
           <br>
           <p>We serve as a platform for hosting events relevant to professionals and entrepreneurs by partnering with leading organizations in Nigeria.</p>
           <br>
-          <v-btn color="white" large depressed class="black--text">
+          <v-btn color="white" large depressed class="black--text" to="/login">
             Get Started
           </v-btn>
 
