@@ -5,7 +5,7 @@
       <h3>Join us at Village</h3>
       <p>Our focus is on motivation and innovation to enable Community building for Freelancers, Startups, and Enterprises</p>
       <br>
-      <v-btn depressed color="white" class="black--text" large>
+      <v-btn depressed color="white" to="/login" class="black--text" large>
         Get Started
       </v-btn>
     </div>

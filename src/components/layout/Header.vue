@@ -17,7 +17,7 @@
         disable-resize-watcher
         hide-overlay
         color="white"
-        width="75%"
+
     >
       <div style="margin-top: 42px; margin-left: 16px; margin-bottom: 90px">
         <span @mouseover="drawer=false" class="black--text">Close X</span>

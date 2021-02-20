@@ -1,20 +1,20 @@
 <template>
   <div class="justify-lg-space-between" :style="[!$vuetify.breakpoint.mobile ?{display:'flex'}:{display: 'none'}]" style="width:52%" >
     <div class="d-flex justify-space-between" style="width: 640px">
-    <v-btn class="action-text mt-1" :color="textColor" small text to="/browseCourses">
+    <v-btn class="action-text mt-1" :color="textColor" small text to="/">
       Home
     </v-btn>
-    <v-btn class="action-text mt-1" :color="textColor" to="/enterprise" small text>
+    <v-btn class="action-text mt-1" :color="textColor"  small text>
       About
     </v-btn>
-    <v-btn class="action-text mt-1" :color="textColor" to="/tutor" small text>
+    <v-btn class="action-text mt-1" :color="textColor"  small text>
       Service
     </v-btn>
-    <v-btn class="action-text mt-1" :color="textColor" to="/jobs" small text>
+    <v-btn class="action-text mt-1" :color="textColor"  small text>
       Plans
     </v-btn>
 
-    <v-btn class="action-text btn-scroll" :color="textColor" to='/login' outlined>
+    <v-btn class="action-text btn-scroll" :color="textColor"  outlined>
       Blog
     </v-btn>
     </div>

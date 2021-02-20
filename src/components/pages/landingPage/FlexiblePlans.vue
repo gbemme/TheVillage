@@ -17,7 +17,7 @@
               <h3>FREELANCE</h3>
             </v-card-title>
             <v-card-subtitle>
-              <h6>₦3000/Day</h6>
+              <h6>₦3,000/Day</h6>
             </v-card-subtitle>
             <v-card-text>
               <p>Uninterrupted Power Supply</p>
@@ -38,7 +38,7 @@
               <h3>FREELANCE</h3>
             </v-card-title>
             <v-card-subtitle>
-              <h6>₦3000/Day</h6>
+              <h6>₦3,000/Day</h6>
             </v-card-subtitle>
 
             <v-card-text>
@@ -59,7 +59,7 @@
               <h3>FREELANCE</h3>
             </v-card-title>
             <v-card-subtitle>
-              <h6>₦3000/Day</h6>
+              <h6>₦3,000/Day</h6>
             </v-card-subtitle>
 
             <v-card-text>
@@ -176,7 +176,6 @@ name: "FlexiblePlans",
   font-size: 13px;
   line-height: 33px;
   letter-spacing: 0.02em;
-
   color: #008000;
 
 }

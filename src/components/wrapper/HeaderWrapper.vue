@@ -1,6 +1,10 @@
 <template>
 <div>
   <Header>
+    <template #drawer-content>
+      <HomePageDrawerContent/>
+
+    </template>
     <template #header-content>
       <HeaderContentSlot>
         <template #get-started-btn>
@@ -37,10 +41,11 @@
 
 <script>
 import Header from "@/components/layout/Header";
-import HeaderContentSlot from "@/components/pages/HeaderContentSlot";
+import HeaderContentSlot from "@/components/pages/landingPage/HeaderContentSlot";
+import HomePageDrawerContent from "@/components/pages/landingPage/HomePageDrawerContent";
 export default {
 name: "HeaderWrapper",
-  components: {HeaderContentSlot, Header},
+  components: {HomePageDrawerContent, HeaderContentSlot, Header},
   data () {
     return {
       items: [

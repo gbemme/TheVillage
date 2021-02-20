@@ -5,7 +5,6 @@
       <h3>What We Offer</h3>
       <p>Here’s what village has to offer to you</p>
     </div>
-
     <div class="justify-space-around" :style="[!$vuetify.breakpoint.mobile? {display:'flex', flexDirection:'row',paddingBottom:'20px'}:{flexDirection:'column !important',display: 'flex',padding:'20px'}]">
       <div class="text-left offer-sub-text">
         <h4>Conducive Work Environment</h4>

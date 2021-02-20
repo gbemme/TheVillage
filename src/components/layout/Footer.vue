@@ -43,10 +43,14 @@
 
         </div>
         <br>
-        <p>08288596665</p>
-        <p>08288596665</p>
-
-
+        <div class="d-flex">
+        <v-icon color="white" class="ml-6 mr-3">mdi-phone</v-icon>
+          <p class="mt-3">0828 859 6665</p>
+        </div>
+        <div class="d-flex">
+        <v-icon color="white" class="ml-6 mr-3">mdi-phone</v-icon>
+          <p class="mt-3">0828 859 6665</p>
+        </div>
       </div>
 
 
